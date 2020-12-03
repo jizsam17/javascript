@@ -35,9 +35,9 @@ else{
     console.log(num2);
 } */
 
-var num1=50;
+/* var num1=50;
 var num2=60;
-var num3=70;
+var num3=70; */
 
 /* if(num1>num2){
     if(num1>num3){
@@ -112,8 +112,8 @@ while(num>0){
 }
 while(digit>0){
     rem=digit%10;
-    num=Math.floor(digit/10);
-    sum=sum+rem**i;
+    digit=Math.floor(digit/10);
+    sum=sum+(rem**i);
 }
 console.log(sum)
 /* var num=4;
