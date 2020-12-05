@@ -10,4 +10,3 @@ for(let i=1;prod<upper;i++){
 
 }
 
-//lower-10 upper-50. Print all primer numbers b/w lower and upper
