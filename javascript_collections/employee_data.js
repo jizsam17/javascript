@@ -22,11 +22,7 @@ for(let emp of employeedata){
 
 //print all employee details who are 1980's
 
-for(let emp of employeedata){
-    if((emp[3]>=1980) & (emp[4]<=1989)){
-        console.log(emp);
-    }
-}
+ 
 
 //print employee details whose experience gretaer than 9
 
