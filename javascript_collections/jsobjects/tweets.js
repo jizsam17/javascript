@@ -25,5 +25,5 @@ for(let k in obj){
     srtd.push(obj[k],k);
 }
 
-srtd.sort(one,two=>two[0]-one[0]);
+srtd.sort((one,two)=>two[0]-one[0]);
 console.log(srtd[0]);
