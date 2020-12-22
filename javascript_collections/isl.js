@@ -16,8 +16,13 @@ var names=isl.map(team=>team.name.toUpperCase()).forEach(name=>console.log(name)
 
 isl.filter(team=>team.win>3).forEach(team=>console.log(team.name)); */
 
-//print team played most games
+/* //print team played most games
 
 var data=isl.map(team=>team.mp).
                        reduce((t1,t2)=>t1>t2?t1:t2);
-isl.filter(team=>team.mp==data).forEach(team=>console.log(team.name));
+isl.filter(team=>team.mp==data).forEach(team=>console.log(team.name)); */
+
+/* //calculating points
+isl.map(team=>team.points=team.win*3+team.draw*1);
+console.log(isl); */
+
